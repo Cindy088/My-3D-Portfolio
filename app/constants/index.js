@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  cyberay,
+  fotopie,
+  fotopieweb,
+  findpromptsweb,
+  secondstyleweb,
 } from '@/public/assets';
 
 export const navLinks = [
@@ -108,63 +113,39 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'Full Stack Developer Intern',
+    company_name: 'Cyberay',
+    icon: cyberay,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Jun 2023 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Developing web applications using React.js, Node.js, Azure functions and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Full Stack Developer (Freelance)',
+    company_name: 'FotoPie',
+    icon: fotopie,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Dec 2022 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed FotoPie website in seperate frontend and backend frameworks with 16 team members to provide users with photo sharing, AI image generation and subscription service.',
+      'Built back-end RESTful APIs in Nest.js framework with Typescript and Node.js',
+      'Built responsive front-end pages and reusable components in Next.js framework with Typescript, React.js and Material-UI',
+      'Designed database schemas and implemented MongoDB Atlas as cloud database solution.',
+      'Implemented CI/CD pipeline with Github Action to realise deployment automation and deployed the project to AWS using docker, ECS, Cloud Front, Route 53, and ALB.',
+      'Collaborated with the team in Agile development methodology using Jira/Scrum and adopted Git/Github as version control.',
     ],
   },
 ];
@@ -200,65 +181,65 @@ const projects = [
   {
     name: 'FotoPie Photography Website',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web-based platform that allows users to search, subscribe, and download photos from various photographers, and users also can access AI image generation services.',
     tags: [
       {
-        name: 'react',
+        name: 'next.js',
         color: 'blue-text-gradient',
+      },
+      {
+        name: 'nest.js',
+        color: 'green-text-gradient',
       },
       {
         name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: fotopieweb,
+    source_code_link: 'https://www.fotopie.net',
   },
   {
-    name: 'Job IT',
+    name: 'Find Prompts Website',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Full-stack Web application that enables users to share and search for prompts for ChatGPT.Used React.js, Tailwindcss, Node.js, MongoDB, Next.js, NextAuth.js. Used Google OAuth for user authentication, providing secure sign-in through Google accounts.',
     tags: [
       {
-        name: 'react',
+        name: 'next.js',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'OAuth',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: findpromptsweb,
+    source_code_link: 'https://find-prompts.vercel.app/',
   },
   {
-    name: 'Trip Guide',
+    name: '2nd Style Website',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A full-stack second-hand clothing platform, users can post information for their second-hand clothes,accessories and shoes for sale.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react.js',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'node.js',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: secondstyleweb,
+    source_code_link: 'https://2nd-style.netlify.app/',
   },
 ];
 

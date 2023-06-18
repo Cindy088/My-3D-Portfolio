@@ -58,18 +58,7 @@ const About = () => {
         multiple stakeholders.
         <br />
         <br />
-        Throughout my career, I have honed my problem-solving abilities, as well
-        as my communication and stakeholder management skills. These
-        transferable skills have proven to be invaluable in my previous roles
-        and have enabled me to effectively collaborate with clients and team
-        members. Additionally, my strong attention to detail ensures that the
-        projects I work on are not only functional but also aesthetically
-        pleasing and user-friendly. I am driven by a desire to contribute to the
-        growth of innovative companies by building scalable and efficient web
-        applications. I thrive in fast-paced environments that embrace change
-        and value continuous learning. With a demonstrated ability to adapt
-        quickly and learn new technologies, I am confident in my ability to take
-        on new challenges and deliver high-quality results.
+        
       </motion.p>
 
       {/* cards */}

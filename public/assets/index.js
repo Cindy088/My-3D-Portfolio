@@ -25,10 +25,15 @@ import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
+import fotopie from './company/fotopie.jpeg';
+import cyberay from './company/cyberay.jpeg';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
+import fotopieweb from './fotopieweb.png';
+import findpromptsweb from './findpromptsweb.png';
+import secondstyleweb from './secondstyleweb.png';
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  fotopie,
+  cyberay,
+  fotopieweb,
+  findpromptsweb,
+  secondstyleweb,
 };
